@@ -12,6 +12,5 @@ crate-type = ["cdylib", "rlib"]
 [dependencies]
 wasm-bindgen = "0.2.60"
 yaml-rust = "0.4.3"
-wasm-bindgen-futures = "0.4.10"
-web-sys = { version = "0.3.37", features = ["Window", "Request", "RequestInit", "RequestMode", "Response", "Headers", "console"] }
-md5 = "0.7.0"
+json = "0.12.4"
+console_error_panic_hook = "0.1.6"
