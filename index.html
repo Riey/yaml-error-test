@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+    <body>
+        <script type="module">
+            import init from "/pkg/package.js"
+            init("/pkg/package_bg.wasm")
+            .then((rust) => {
+                console.log(rust.foo())
+            });
+        </script>
+    </body>
+</html>
+
